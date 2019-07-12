@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="RefitTest.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label x:Name="Refittext"  Text="Refit calls will be displayed here" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Label x:Name="HttpClienttext"  Text="HttpClient calls will be displayed here" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Label x:Name="Flurltext"  Text="Flurl calls will be displayed here" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Label x:Name="RefitHttpClientFactorytext"  Text="Refit HttpClient Factory calls will be displayed here" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Button Text="Make Calls" Pressed="Button_Pressed"/>
+    </StackLayout>
+
+</ContentPage>
