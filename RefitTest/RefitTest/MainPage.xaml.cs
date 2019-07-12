@@ -51,7 +51,7 @@ namespace RefitTest
 
         private async void Button_Pressed(object sender, EventArgs e)
         {
-            Refittext.Text = RefitHttpClientFactorytext.Text = Flurltext.Text = Refittext.Text = HttpClienttext.Text = "Prcessing...";
+            Refittext.Text = RefitHttpClientFactorytext.Text = Flurltext.Text = Refittext.Text = HttpClienttext.Text = "Processing...";
             var taskList = new List<Task>
             {
                 RunHttpClient(),
